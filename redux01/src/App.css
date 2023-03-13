@@ -1,0 +1,49 @@
+.App{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 50%;
+    flex-direction: column;
+    border: 2px solid rgb(153, 139, 123);
+    box-shadow: 0px 20px rgb(153, 139, 123);
+}
+
+.App button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: bisque;
+    border: 2px solid rgb(153, 139, 123);
+    box-shadow: 0px 3px rgb(153, 139, 123);
+    transition: 0.3s ease;
+}
+
+.App button:hover{
+    transform: translateY(3px);
+    border: 2px solid rgb(153, 139, 123);
+    box-shadow: 0px 0px rgb(153, 139, 123);
+}
+.App button:active{
+    transform: translateY(4px) scaleY(0.9);
+    border: 2px solid rgb(153, 139, 123);
+    box-shadow: 0px -2px rgb(153, 139, 123);
+}
+
+.AppLign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.App input{
+    height: 40px;
+    padding: 5px 15px;
+    background-color: bisque;
+    border: 2px solid rgb(153, 139, 123);
+    box-shadow: 0px 3px rgb(153, 139, 123);
+    border-radius: 12px;
+}
